@@ -1,5 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import {AiOutlineLinkedin} from 'react-icons/ai'
+import {RiMediumLine} from 'react-icons/ri'
+import {AiFillGithub} from 'react-icons/ai'
+import {AiOutlineMail} from 'react-icons/ai'
+
 import './Header.css';
 
 const Header = ({active}) => {
@@ -18,7 +23,18 @@ const Header = ({active}) => {
             </ul>
             <h1>Stephen Ibanez</h1>
             <div className="links">
-                
+                <a href='https://www.linkedin.com/in/stephen-ibanez-780b57b0/'>
+                    <AiOutlineLinkedin/>
+                </a>
+                <a href='https://github.com/stephenvincentibanez'>
+                    <AiFillGithub/>
+                </a>
+                <a href='mailto: stephenvincentibanez@gmail.com'>
+                    <AiOutlineMail/>
+                </a>
+                <a href='https://stephenvincentibanez.medium.com/'>
+                    <RiMediumLine/>
+                </a>
             </div>
             {/* grab social media icons */}
             {/* <img className='header__image'/> */}

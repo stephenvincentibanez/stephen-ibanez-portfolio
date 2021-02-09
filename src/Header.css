@@ -8,3 +8,29 @@
     top: 0;
     z-index: 100;
 }
+
+.header__image{
+    object-fit: contain;
+    /* width: 35px;
+    height: 35px; */
+}
+
+.header > ul{
+    list-style: none;
+    display: flex;
+    align-items: center;;
+}
+
+.header > ul > a {
+    text-decoration: none;
+    color: black;
+}
+
+.header > ul > a > li {
+    padding-right: 25px;
+    cursor: pointer;
+}
+
+.header__home--active, .header__portfolio--active, .header__about--active{
+    color: #f0883d
+}

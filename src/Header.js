@@ -23,16 +23,16 @@ const Header = ({active}) => {
             </ul>
             {/* <h1>Stephen Ibanez</h1> */}
             <div className="links">
-                <a href='https://www.linkedin.com/in/stephen-ibanez-780b57b0/'>
+                <a target='_blank' href='https://www.linkedin.com/in/stephen-ibanez-780b57b0/'>
                     <AiOutlineLinkedin/>
                 </a>
-                <a href='https://github.com/stephenvincentibanez'>
+                <a target='_blank' href='https://github.com/stephenvincentibanez'>
                     <AiFillGithub/>
                 </a>
-                <a href='mailto: stephenvincentibanez@gmail.com'>
+                <a target='_blank' href='mailto: stephenvincentibanez@gmail.com'>
                     <AiOutlineMail/>
                 </a>
-                <a href='https://stephenvincentibanez.medium.com/'>
+                <a target='_blank' href='https://stephenvincentibanez.medium.com/'>
                     <RiMediumLine/>
                 </a>
             </div>

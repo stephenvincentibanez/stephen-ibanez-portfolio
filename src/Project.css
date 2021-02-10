@@ -17,11 +17,14 @@ a {
 }
 
 .project__bottom{
+    /* max-width: 470px; */
     width: 470px;
 }
 
 .project__bottom > img {
-    max-width: 500px; 
+    object-fit: cover;
+    max-width: 500px;
+    height: 350px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }

@@ -42,7 +42,15 @@ const Portfolio = () => {
                     <Project 
                         projectName='ApartmentFindr' 
                         projectImg='https://i.postimg.cc/cJp41N6S/Screen-Shot-2021-02-09-at-5-14-39-PM.png' 
-                        projectUrl='http://apartment-findr.herokuapp.com/'/>
+                        projectUrl='http://apartment-findr.herokuapp.com/'
+                    />
+                </div>
+                <div className='portfolio__project'>
+                    <Project
+                        projectName='SAMtify'
+                        projectImg='https://i.postimg.cc/CKkz94sJ/Samtify-Home4.png'
+                        projectUrl='https://youtu.be/Yh0P6Iz1Acc'
+                    />
                 </div>
             </div>
             

@@ -15,7 +15,7 @@ const Body = () => {
                     alt=''/>
                 <div className='body__info'>
                     <h1>Stephen Ibanez</h1>
-                    <p>I'm a software engineer</p>
+                    <h5>Software Engineer/Front-End Developer</h5>
                 </div>
             </div>
             <div className='body__viewPortfolio'>

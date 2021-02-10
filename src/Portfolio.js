@@ -1,4 +1,3 @@
-// import React from 'react';
 import Project from './Project'
 import React, {useEffect, useState} from 'react'
 import './Portfolio.css' 

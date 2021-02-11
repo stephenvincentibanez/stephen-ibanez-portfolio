@@ -10,6 +10,8 @@
     border-radius: 999px;
     border: 8px solid white;
     width: 290px;
+    height: 290px;
+    object-fit: cover;
     margin-right: 30px;
 }
 
@@ -43,8 +45,4 @@
 .body__viewPortfolio > a > button:hover{
     color: #ff6b00;
     background-color: white;
-}
-
-h1 {
-    padding-bottom: 5px;
 }

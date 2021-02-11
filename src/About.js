@@ -17,9 +17,9 @@ const About = () => {
                 </a>
                 <div className='about__bio'>
                     <h1 className='about__header'>Hello World!</h1>
-                    <h3>I'm a full-stack software engineer with a passion for front-end development. </h3>
-                    {/* <h5>I'm experienced in Javascript, React, Ruby on Rails, HTML, and CSS</h5> */}
-                    <h5>As a people person, I love collaborating in teams</h5>
+                    <h3>I'm a full-stack software engineer with experience in Javascript, React, Ruby on Rails, CSS, and HTML. </h3>
+                    <h5>As a people person, I love working in collaborative environments where minds can meet and bring out the best in one another. </h5>
+                    <h5>Outside of programming, I enjoy pursuing other creative endeavors like producing/recording music and drawing. I love to stay active, hiking around the PNW and indulging in a newfound love for basketball. </h5>
                 </div>
             </div>
             <p></p>

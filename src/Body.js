@@ -11,7 +11,7 @@ const Body = () => {
                 alt=''/>
             <div className='body__aboutMe'>
                 <img 
-                    src='https://media.licdn.com/media/AAYQAQSOAAgAAQAAAAAAAB-zrMZEDXI2T62PSuT6kpB6qg.png' 
+                    src='https://i.postimg.cc/Qdtj2Kjw/IMG-3189.jpg' 
                     alt=''/>
                 <div className='body__info'>
                     <h1>Stephen Ibanez</h1>

@@ -12,12 +12,13 @@
 }
 
 .about__resume{
-    padding: 60px;
+    padding: 45px;
     width: 625px;
 }
 
-.about__blurb{
-    padding: 300px;
+.about__bio{
+    padding-left: 30px;
+    padding-right: 200px;
 }
 
 .about__header{
@@ -26,8 +27,10 @@
 
 h3 {
     font-size: x-large;
+    padding-top: 30px;
 }
 
 h5{
     font-size: large;
+    padding-top: 30px;
 }

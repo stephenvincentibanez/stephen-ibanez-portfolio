@@ -12,17 +12,18 @@
 }
 
 .about__resume{
-    padding: 45px;
-    width: 625px;
+    padding-top: 45px;
+    padding-left: 200px;
+    width: 620px;
 }
 
 .about__bio{
-    padding-left: 30px;
+    padding-left: 50px;
     padding-right: 200px;
 }
 
 .about__header{
-    font-size: xx-large;
+    font-size: xxx-large;
 }
 
 h3 {

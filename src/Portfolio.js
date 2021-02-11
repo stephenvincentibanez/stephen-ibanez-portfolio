@@ -52,6 +52,13 @@ const Portfolio = () => {
                         projectUrl='https://youtu.be/Yh0P6Iz1Acc'
                     />
                 </div>
+                <div className='portfolio__project'>
+                    <Project
+                        projectName='MovieMagick'
+                        projectImg='https://i.postimg.cc/76dqMTmv/Screen-Shot-2021-02-11-at-1-43-53-PM.png'
+                        projectUrl='https://youtu.be/Yh0P6Iz1Acc'
+                    />
+                </div>
             </div>
             
         </div>

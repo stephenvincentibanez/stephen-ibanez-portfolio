@@ -41,21 +41,22 @@ const Portfolio = () => {
                 <div className='portfolio__project'>
                     <Project 
                         projectName='ApartmentFindr' 
-                        projectImg='https://i.postimg.cc/cJp41N6S/Screen-Shot-2021-02-09-at-5-14-39-PM.png' 
+                        // projectImg={process.env.PUBLIC_URL + '/ApartmentFindrLanding.png'}  
+                        projectImg={process.env.PUBLIC_URL + '/ApartmentFindrBrowse.png'}  
                         projectUrl='http://apartment-findr.herokuapp.com/'
                     />
                 </div>
                 <div className='portfolio__project'>
                     <Project
                         projectName='SAMtify'
-                        projectImg='https://i.postimg.cc/CKkz94sJ/Samtify-Home4.png'
+                        projectImg={process.env.PUBLIC_URL + '/SamtifyHome4.png'}
                         projectUrl='https://youtu.be/Yh0P6Iz1Acc'
                     />
                 </div>
                 <div className='portfolio__project'>
                     <Project
                         projectName='MovieMagick'
-                        projectImg='https://i.postimg.cc/76dqMTmv/Screen-Shot-2021-02-11-at-1-43-53-PM.png'
+                        projectImg={process.env.PUBLIC_URL + '/MovieMagickBrowse.png'}
                         projectUrl='https://youtu.be/Yh0P6Iz1Acc'
                     />
                 </div>

@@ -1,6 +1,5 @@
 import React from 'react';
 import './About.css'
-// import { Document } from 'react-pdf'
 
 const About = () => {
     return (
@@ -13,9 +12,8 @@ const About = () => {
                 <a target='_blank' href='https://docs.google.com/document/d/1S2tPMq-6yKgEf5cvXT7OD6A_xkf0PGzP5EUjwWLc308/edit'>
                     <img
                         className='about__resume'
-                        src='https://i.postimg.cc/CKmgQBfd/Stephen-Ibanez-Resume-Feb-2021.png'
+                        src={process.env.PUBLIC_URL + '/Stephen-Ibanez-Resume-Feb-2021.png'}
                     />
-                    {/* <Document file='public/Stephen Ibanez Resume Feb 2021.pdf'/> */}
                 </a>
                 <div className='about__bio'>
                     <h1 className='about__header'>Hello World!</h1>

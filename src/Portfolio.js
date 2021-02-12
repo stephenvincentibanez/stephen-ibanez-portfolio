@@ -22,10 +22,10 @@ const Portfolio = () => {
 
     return (
         <div className="portfolio">
-             <img
+             {/* <img
                 className='portfolio__background' 
                 src='https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Colorful-Geometric-Simple-Background-Image.jpg' 
-                alt=''/>
+                alt=''/> */}
             <div className='portfolio__projects'>
                 {/* {
                     projects.map(project => (

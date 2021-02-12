@@ -21,7 +21,6 @@ const Header = ({active}) => {
                     <li className={active === 'about' && 'header__about--active'}>About</li>
                 </Link>
             </ul>
-            {/* <h1>Stephen Ibanez</h1> */}
             <div className="links">
                 <a target='_blank' href='https://www.linkedin.com/in/stephen-ibanez-780b57b0/'>
                     <AiOutlineLinkedin/>

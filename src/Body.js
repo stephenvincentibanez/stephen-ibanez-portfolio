@@ -5,10 +5,10 @@ import './Body.css'
 const Body = () => {
     return (
         <div className='body'>
-            <img
+            {/* <img
                 className='body__background' 
                 src='https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Colorful-Geometric-Simple-Background-Image.jpg' 
-                alt=''/>
+                alt=''/> */}
             <div className='body__aboutMe'>
                 <img 
                     src='https://i.postimg.cc/Qdtj2Kjw/IMG-3189.jpg' 

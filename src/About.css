@@ -9,6 +9,7 @@
 .about__info{
     display: flex;
     align-items: center;
+    color: white;
 }
 
 .about__resume{
@@ -26,12 +27,12 @@
     font-size: xxx-large;
 }
 
-h3 {
+.about__bio > h3 {
     font-size: x-large;
     padding-top: 30px;
 }
 
-h5{
+.about__bio > h5{
     font-size: large;
     padding-top: 30px;
 }

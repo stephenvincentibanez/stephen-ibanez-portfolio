@@ -23,6 +23,7 @@
 
 .body {
     color: white;
+    background-color: black;
     display: grid;
     place-items: center;
 }
@@ -38,6 +39,7 @@
     color: white;
     font-size: 20px;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
     transition: all 0.5s ease;
 }
@@ -45,4 +47,12 @@
 .body__viewPortfolio > a > button:hover{
     color: #ff6b00;
     background-color: white;
+}
+
+.body__info > h5, h1 {
+    padding-top: 7px;
+}
+
+.body__info > h5 {
+    font-size: large;
 }

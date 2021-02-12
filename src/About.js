@@ -5,10 +5,10 @@ import './About.css'
 const About = () => {
     return (
         <div className='about'>
-            <img
+            {/* <img
                 className='about__background' 
                 src='https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Colorful-Geometric-Simple-Background-Image.jpg' 
-                alt=''/>
+                alt=''/> */}
             <div className='about__info'>
                 <a target='_blank' href='https://docs.google.com/document/d/1S2tPMq-6yKgEf5cvXT7OD6A_xkf0PGzP5EUjwWLc308/edit'>
                     <img

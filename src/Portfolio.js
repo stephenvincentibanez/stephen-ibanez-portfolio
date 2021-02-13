@@ -57,7 +57,7 @@ const Portfolio = () => {
                     <Project
                         projectName='MovieMagick'
                         projectImg={process.env.PUBLIC_URL + '/MovieMagickBrowse.png'}
-                        projectUrl='https://youtu.be/Yh0P6Iz1Acc'
+                        projectUrl='https://youtu.be/sxl3xLHe2H4?start=4310&end=4994'
                     />
                 </div>
             </div>

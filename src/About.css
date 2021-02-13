@@ -9,13 +9,13 @@
 .about__info{
     display: flex;
     align-items: center;
-    color: white;
+    color: #fff3e4;
 }
 
 .about__resume{
-    padding-top: 45px;
+    padding-top: 35px;
     padding-left: 200px;
-    width: 610px;
+    width: 620px;
 }
 
 .about__bio{

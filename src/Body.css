@@ -35,8 +35,7 @@
 .body__viewPortfolio > a > button {
     width: 450px;
     height: 100px;
-    background-color: #4b6b85;
-    /* background-color: #006666; */
+    background-color: #272B42;
     color: #fff3e4;
     font-size: 20px;
     border: none;
@@ -46,9 +45,8 @@
 }
 
 .body__viewPortfolio > a > button:hover{
-    color: white;
-    /* background-color: white; */
-    background-color: #598bb4;
+    color: #fff3e4;
+    background-color: #98ACB5
 }
 
 .body__info > h5, h1 {

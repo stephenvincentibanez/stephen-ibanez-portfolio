@@ -1,6 +1,7 @@
-.blog__post{
+.blog__post > a{
     color: #fff3e4;
     padding: 10px;
+    margin:auto;
 }
 
 .blog__post > h1{

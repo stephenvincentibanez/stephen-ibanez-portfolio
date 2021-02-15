@@ -26,6 +26,7 @@
     color:#fff3e4;
     display: grid;
     place-items: center;
+    max-width: 100%;
 }
 
 .body__viewPortfolio{

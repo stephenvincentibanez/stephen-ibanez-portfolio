@@ -11,7 +11,7 @@ const Body = () => {
                 alt=''/> */}
             <div className='body__aboutMe'>
                 <img 
-                    src='https://i.postimg.cc/Qdtj2Kjw/IMG-3189.jpg' 
+                    src={process.env.PUBLIC_URL + '/IMG_3392 copy.jpeg'}
                     alt=''/>
                 <div className='body__info'>
                     <h1>Stephen Ibanez</h1>

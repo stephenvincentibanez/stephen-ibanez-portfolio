@@ -9,7 +9,7 @@ const About = () => {
                 src='https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Colorful-Geometric-Simple-Background-Image.jpg' 
                 alt=''/> */}
             <div className='about__info'>
-                <a target='_blank' href='https://docs.google.com/document/d/1S2tPMq-6yKgEf5cvXT7OD6A_xkf0PGzP5EUjwWLc308/edit'>
+                <a target='_blank' href='https://docs.google.com/document/d/1S2tPMq-6yKgEf5cvXT7OD6A_xkf0PGzP5EUjwWLc308/edit?usp=sharing'>
                     <img
                         className='about__resume'
                         src={process.env.PUBLIC_URL + '/Stephen-Ibanez-Resume-Feb-2021.png'}

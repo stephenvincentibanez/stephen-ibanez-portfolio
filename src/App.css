@@ -4,7 +4,7 @@
     font-family: 'Josefin Sans', cursive
 }
 
-@media only screen and (max-width:600px){
+@media (max-width:600px){
     html {
       background-color: aquamarine;
     }
@@ -14,16 +14,25 @@
     } */
 
     .body__aboutMe > img {
-        width: 100px;
-        height: 100px;
+        width: 50px;
+        height: 50px;
         margin-right: 3px;
+    }
+
+    .body__info > h5 {
+        font-size: medium;
+    }
+
+    .body__viewPortfolio > a > button {
+        width: 100px;
+        height: 50px;
     }
 
     .header{
         font-size: 10px;
     }
 
-    .portfolio__project{
+    /* .portfolio__project{
         width: 100px;
-    }
+    } */
   }

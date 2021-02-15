@@ -13,12 +13,14 @@
         max-width: 100%;
     } */
 
-    .body {
-        width: 200px;
+    .body__aboutMe > img {
+        width: 100px;
+        height: 100px;
+        margin-right: 3px;
     }
 
     .header{
-        width: 200px;
+        font-size: 10px;
     }
 
     .portfolio__project{

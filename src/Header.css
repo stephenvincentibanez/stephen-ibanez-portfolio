@@ -1,5 +1,4 @@
 .header{
-    /* background-color: black; */
     display: flex;
     padding: 20px;
     font-size: 20px;
@@ -37,7 +36,7 @@
     cursor: pointer;
 }
 
-.header__home--active, .header__portfolio--active, .header__about--active{
+.header__home--active, .header__portfolio--active, .header__about--active, .header__blog--active{
     color: #272B42;
 }
 
@@ -49,7 +48,6 @@
 .header > div > a {
     padding-right: 25px;
     cursor: pointer;
-    /* color: white; */
     color: #fff3e4;
 }
 
@@ -57,7 +55,3 @@
     height: 30px;
     width: 30px;
 }
-
-/* .name{
-    color: white;
-} */

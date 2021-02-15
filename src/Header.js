@@ -20,10 +20,10 @@ const Header = ({active}) => {
                 <Link to='/about'>
                     <li className={active === 'about' && 'header__about--active'}>About</li>
                 </Link>
+                <Link to='/blog'>
+                    <li className={active === 'blog' && 'header__blog--active'}>Blog</li>
+                </Link>
             </ul>
-            {/* <div className='name'>
-                <h1>Stephen Ibanez</h1>
-            </div> */}
             <div className='links'>
                 <a target='_blank' href='https://www.linkedin.com/in/stephen-ibanez-780b57b0/'>
                     <AiOutlineLinkedin/>

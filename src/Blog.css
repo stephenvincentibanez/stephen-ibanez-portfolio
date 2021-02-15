@@ -1,0 +1,18 @@
+.blog__post{
+    color: #fff3e4;
+    padding: 10px;
+}
+
+.blog__post > h1{
+    transition: all .3s ease-in-out;
+}
+
+.blog__post:hover > h1{
+    text-decoration: underline #fff3e4;
+    transform: scale(1.1);
+}
+
+.blog__posts{
+    text-align: center;
+    padding-top: 50px;
+}

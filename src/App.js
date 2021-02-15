@@ -4,6 +4,7 @@ import Header from './Header';
 import Portfolio from './Portfolio';
 import About from './About';
 import Body from './Body';
+import Blog from './Blog';
 
 function App() {
   return (
@@ -17,6 +18,10 @@ function App() {
           <Route path='/about'>
             <Header active='about'/>
             <About/>
+          </Route>
+          <Route path='/blog'>
+            <Header active='blog'/>
+            <Blog/>
           </Route>
           <Route path='/'>
             <Header active='home'/>

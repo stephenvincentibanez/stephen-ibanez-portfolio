@@ -3,3 +3,18 @@
 * {
     font-family: 'Josefin Sans', cursive
 }
+
+@media only screen and (max-width:750px){
+    html {
+      background-color: aquamarine;
+    }
+
+    .body__aboutMe {
+        width: 100%;
+    }
+
+    .header{
+        width: 100%
+    }
+
+  }

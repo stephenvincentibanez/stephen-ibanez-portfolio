@@ -5,16 +5,19 @@
 }
 
 @media only screen and (max-width:750px){
-    html {
+    /* html {
       background-color: aquamarine;
-    }
+    } */
 
-    .body__aboutMe {
+    /* .body__aboutMe {
         max-width: 100%;
+    } */
+
+    .body {
+        max-width: 100%
     }
 
     .header{
         max-width: 100%;
     }
-
   }

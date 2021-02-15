@@ -5,23 +5,23 @@
 }
 
 @media only screen and (max-width:600px){
-    /* html {
+    html {
       background-color: aquamarine;
-    } */
+    }
 
     /* .body__aboutMe {
         max-width: 100%;
     } */
 
     .body {
-        width: 600px;
+        width: 200px;
     }
 
     .header{
-        width: 600px;
+        width: 200px;
     }
 
     .portfolio__project{
-        width: 400px;
+        width: 100px;
     }
   }

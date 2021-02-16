@@ -26,7 +26,6 @@
 .links {
     display: flex;
     list-style: none;
-    /* display:none; */
     /* padding-left: 10px; */
     justify-content: center;
     align-items: center;
@@ -37,7 +36,6 @@
 }
 
 .header > ul > a > li {
-    /* padding-right: 25px; */
     padding-right: 25px;
     cursor: pointer;
 }

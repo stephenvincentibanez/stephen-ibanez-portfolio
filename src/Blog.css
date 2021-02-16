@@ -6,6 +6,7 @@
 
 .blog__post > h1{
     transition: all .3s ease-in-out;
+    font-size: 17px;
 }
 
 .blog__post:hover > h1{
@@ -15,5 +16,5 @@
 
 .blog__posts{
     text-align: center;
-    padding-top: 50px;
+    padding-top: 30px;
 }

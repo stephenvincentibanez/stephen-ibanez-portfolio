@@ -1,11 +1,13 @@
 .header{
     display: flex;
-    padding: 20px;
+    /* padding: 20px; */
+    padding: 5px;
     font-size: 20px;
     justify-content: space-between;
     position: sticky;
     top: 0;
     z-index: 100;
+    width: 100%; 
     max-width: 100%;
 }
 
@@ -33,7 +35,8 @@
 }
 
 .header > ul > a > li {
-    padding-right: 25px;
+    /* padding-right: 25px; */
+    padding-right: 10px;
     cursor: pointer;
 }
 
@@ -47,7 +50,8 @@
 }
 
 .header > div > a {
-    padding-right: 25px;
+    /* padding-right: 25px; */
+    padding-right: 10px;
     cursor: pointer;
     color: #fff3e4;
 }

@@ -1,17 +1,11 @@
-.blog__post > a{
+.blog__post{
     color: #fff3e4;
     padding: 10px;
     margin:auto;
 }
 
 .blog__post > h1{
-    transition: all .3s ease-in-out;
-    font-size: 17px;
-}
-
-.blog__post:hover > h1{
-    text-decoration: underline #fff3e4;
-    transform: scale(1.1);
+    font-size: 20px;
 }
 
 .blog__posts{

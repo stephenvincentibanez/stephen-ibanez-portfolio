@@ -5,10 +5,6 @@ import './Body.css'
 const Body = () => {
     return (
         <div className='body'>
-            {/* <img
-                className='body__background' 
-                src='https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Colorful-Geometric-Simple-Background-Image.jpg' 
-                alt=''/> */}
             <div className='body__aboutMe'>
                 <img 
                     src={process.env.PUBLIC_URL + '/IMG_3392 copy.jpeg'}

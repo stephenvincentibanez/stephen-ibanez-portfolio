@@ -115,11 +115,32 @@
 
     /* ABOUT */
 
+    .about__resume_mobile{
+        display: none;
+    }
+
+    .about__resume{
+        display: flex!important;
+    }
+
+    .about__bio{
+        margin-right: 120px!important;
+        margin-left: 30px!important;
+    }
+
     /* BLOG  */
+
+    .blog{
+        padding-top: 45px;
+    }
+
+    .blog__post {
+        padding: 23px!important;
+    }
 
     .blog__post > h1{
         transition: all .3s ease-in-out!important;
-        font-size: 17px;
+        font-size: 30px!important;
     }
     
     .blog__post:hover > h1{

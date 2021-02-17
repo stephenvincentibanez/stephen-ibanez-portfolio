@@ -6,3 +6,9 @@ html{
   background-color: #59687c;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+* {
+    font-family: 'Josefin Sans', cursive
+}
+

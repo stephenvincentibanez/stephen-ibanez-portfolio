@@ -1,16 +1,17 @@
 .body__aboutMe > img {
     border-radius: 999px;
     border: 6px solid #fff3e4;
-    width: 290px;
-    height: 290px;
+    width: 170px;
+    height: 170px;
     object-fit: cover;
-    margin-right: 30px;
+    margin-right: 10px;
 }
 
 .body__aboutMe {
     display: flex;
     align-items: center;
-    margin-top: 80px;
+    justify-content: center;
+    margin-top: 70px;
 }
 
 .body {
@@ -20,12 +21,12 @@
 }
 
 .body__viewPortfolio{
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .body__viewPortfolio > a > button {
-    width: 450px;
-    height: 100px;
+    width: 250px;
+    height: 70px;
     background-color: #272B42;
     color: #fff3e4;
     font-size: 20px;
@@ -40,10 +41,14 @@
     background-color: #98ACB5
 }
 
-.body__info > h5, h1 {
+.body__info > h1 {
+    font-size: 23px;
+}
+
+.body__info > h5{
     padding-top: 7px;
 }
 
 .body__info > h5 {
-    font-size: large;
+    font-size: 20px;
 }

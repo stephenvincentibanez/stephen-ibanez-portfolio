@@ -132,16 +132,23 @@
     /* BLOG  */
 
     .blog{
-        padding-top: 45px;
+        padding-top: 45px!important;
+    }
+
+    .blog_posts{
+        display: flex!important;
+        justify-content: center!important;
     }
 
     .blog__post {
-        padding: 23px!important;
+        width: 70%!important;
+        margin: 0 auto!important;
     }
 
     .blog__post > h1{
         transition: all .3s ease-in-out!important;
         font-size: 30px!important;
+        padding: 25px!important;
     }
     
     .blog__post:hover > h1{

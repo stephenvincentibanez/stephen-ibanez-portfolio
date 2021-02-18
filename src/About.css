@@ -35,5 +35,6 @@
 .about__resume_mobile > a > h1 {
     padding-top: 35px;
     color: #fff3e4;
+    /* color: aliceblue;  */
     font-size: xx-large;
 }

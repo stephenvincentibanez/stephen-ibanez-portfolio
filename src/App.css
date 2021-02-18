@@ -155,4 +155,12 @@
         text-decoration: underline #fff3e4!important;
         transform: scale(1.1)!important;
     }
+
+    /* NOT FOUND */
+
+    .notfound > h1{
+        font-size: xxx-large;
+        padding-top: 180px!important;
+    }
+    
   }

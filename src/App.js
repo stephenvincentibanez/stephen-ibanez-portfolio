@@ -5,6 +5,7 @@ import Portfolio from './Portfolio';
 import About from './About';
 import Body from './Body';
 import Blog from './Blog';
+import NotFound from './NotFound';
 
 function App() {
   return (
@@ -23,9 +24,13 @@ function App() {
             <Header active='blog'/>
             <Blog/>
           </Route>
-          <Route path='/'>
+          <Route exact path='/'>
             <Header active='home'/>
             <Body/>
+          </Route>
+          <Route>
+            <Header/>
+            <NotFound/>
           </Route>
         </Switch>
       </div>

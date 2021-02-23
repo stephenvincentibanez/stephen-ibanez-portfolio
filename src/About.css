@@ -32,9 +32,31 @@
     padding-top: 30px;
 }
 
+.about__resume_mobile {
+    display: flex;
+    align-items: center;
+    border: solid 3px #fff3e4;
+    border-radius: 999px;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 30px;
+    padding: 10px;
+}
+
 .about__resume_mobile > a > h1 {
-    padding-top: 35px;
     color: #fff3e4;
-    /* color: aliceblue;  */
     font-size: xx-large;
+}
+
+.modal-body > div.modal > h2, h4{
+    text-align: center;
+}
+
+.modal{
+    color: #fff3e4;
+}
+
+.my-modal {
+    width: 90vw;
+    max-width: 90vw;
 }
